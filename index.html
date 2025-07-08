@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoya - Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="banner">	
+            "Transforma tus ideas en productos únicos - Productos de calidad para emprendedores y negocios"
+        </div>
+
+        <div class="header-main">
+            <div class="header-left">
+                <nav class="nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Productos</a>
+                    <a href="#" class="nav-link">Ofertas</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+            <div class="header-right">
+                <span class="icon">🔍</span>
+                <span class="icon">👤</span>
+                <span class="icon">🛒</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="logo-productos">
+        <img src="logo.jpeg" alt="Yoya Logo" class="logo-productos-fijo">
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="page-header">
+                <h1>Nuestros Productos</h1>			
+                <p>Descubre nuestra amplia gama de productos de calidad</p>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="products-grid">
+                <!-- Los productos se cargarán aquí con JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección dinámica -->
+    <div id="dynamic-section" class="dynamic-section"></div>
+
+    <!-- Modal para detalles del producto -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <div class="main-image">
+                        <img id="main-product-image" src="" alt="">
+                        <button class="prev-btn" onclick="previousImage()">❮</button>
+                        <button class="next-btn" onclick="nextImage()">❯</button>
+                    </div>
+                    <div class="thumbnail-images" id="thumbnail-images"></div>
+                </div>
+                <div class="modal-info">
+                    <div class="product-badges" id="product-badges"></div>
+                    <h2 id="modal-product-name"></h2>
+                    <p class="sku">SKU: <span id="modal-product-sku"></span></p>
+                    <div class="prices">
+                        <span class="current-price" id="modal-product-price"></span>
+                        <span class="original-price" id="modal-original-price"></span>
+                    </div>
+                    <div class="stock-status" id="modal-stock-status"></div>
+                    <div class="description">
+                        <h3>Descripción</h3>
+                        <p id="modal-product-description"></p>
+                    </div>
+                    <div class="features">
+                        <h3>Características</h3>
+                        <ul id="modal-product-features"></ul>
+                    </div>
+                    <div class="actions">
+                        <div class="quantity-selector">
+                            <label>Cantidad:</label>
+                            <div class="quantity-controls">
+                                <button onclick="changeQuantity(-1)">-</button>
+                                <span id="quantity">1</span>
+                                <button onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                        <button class="add-to-cart-btn" id="add-to-cart-btn">Agregar al carrito</button>
+                        <button class="wishlist-btn">❤️</button>
+                        <button class="share-btn">📤</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/584127391843" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon-fijo">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
