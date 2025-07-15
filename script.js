@@ -3,16 +3,15 @@ const products = [
     {
         id: 1,
         name: "Reloj Digital Sublimable",
-        price: "$15",
-        originalPrice: "$20",
+        price: "$8,50",
+        originalPrice: "$11",
         images: [
 			"https://sublimachile.cl/wp-content/uploads/2021/08/88-reloj-cubo-6.jpg",
 			"https://www.sublifly.co/wp-content/uploads/2024/08/RELOJ-SUBLIMABLE.png",
             "https://www.suministro.cl/cdn/shop/files/Reloj-digital-tipo-cubo-con-3-caras-sublimables-me-8.webp?v=1725629446&width=1946",
-            "https://www.suministro.cl/cdn/shop/files/Reloj-digital-tipo-cubo-con-3-caras-sublimables-me-1.webp?v=1725629445&width=1946",
-            "https://www.suministro.cl/cdn/shop/files/Reloj-digital-tipo-cubo-con-3-caras-sublimables-me-16.webp?v=1725629446&width=1946"
+            "https://www.suministro.cl/cdn/shop/files/Reloj-digital-tipo-cubo-con-3-caras-sublimables-me-1.webp?v=1725629445&width=1946"
         ],
-        discount: "-25%",
+        discount: "-22,73%",
         isOffer: true,
         inStock: true,
         sku: "1061050030p",
@@ -28,57 +27,28 @@ const products = [
     },
     {
         id: 2,
-        name: "Taza Personalizable",
-        price: "$6",
+        name: "Reloj Digital Sublimable de colores",
+        price: "$11",
+        originalPrice: "$15",
         images: [
-            "https://www.suministro.cl/cdn/shop/files/Tazon-blanco-sublimacion-15oz-acabado-brillante-in-3.webp?v=1720251631&width=1946",
-            "https://www.suministro.cl/cdn/shop/files/Tazon-blanco-sublimacion-15oz-acabado-brillante-in-8.webp?v=1720251631&width=1946"
+            "https://www.suministro.cl/cdn/shop/files/Reloj-digital-tipo-cubo-con-3-caras-sublimables-me-16.webp?v=1725629446&width=1946",
+			"https://www.productosgraficos.cl/wp-content/uploads/2022/09/reloj-sublimacion-4.jpg",
+			"https://www.productosgraficos.cl/wp-content/uploads/2022/09/reloj-sublimacion-3.jpg",
+            "https://www.productosgraficos.cl/wp-content/uploads/2022/09/reloj-sublimacion-5.jpg",
+            "https://www.productosgraficos.cl/wp-content/uploads/2022/09/reloj-sublimacion-6.jpg"
         ],
+        discount: "-26,67%",
+        isOffer: true,
         inStock: true,
-        sku: "TZ001",
-        description: "Taza de cerámica blanca, perfecta para personalizar con tus diseños favoritos mediante sublimación.",
+        sku: "1061050030p",
+        description: "Reloj Digital Sublimable Tipo Cubo, personalizable con tus diseños. Incluye pantalla digital, alarma, y luz LED. Ideal para hogar u oficina.",
         features: [
-            "Material: Cerámica de alta calidad",
-            "Capacidad: 325ml",
-            "Apta para microondas",
+            "Pantalla digital LCD",
+            "Función de alarma",
+            "Luz LED integrada",
             "Personalizable por sublimación",
-            "Base antideslizante"
-        ]
-    },
-    {
-        id: 3,
-        name: "Camiseta Sublimable",
-        price: "$7",
-        images: [
-            "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop"
-        ],
-        inStock: true,
-        sku: "CS001",
-        description: "Camiseta de algodón premium ideal para sublimación. Suave al tacto y duradera.",
-        features: [
-            "100% algodón premium",
-            "Tallas S, M, L, XL",
-            "Corte clásico",
-            "Ideal para sublimación",
-            "Lavable en máquina"
-        ]
-    },
-    {
-        id: 4,
-        name: "Mouse Personalizado",
-        price: "$4",
-        images: [
-            "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&h=600&fit=crop"
-        ],
-        inStock: true,
-        sku: "MP001",
-        description: "Mouse pad con superficie lisa y base antideslizante. Perfecto para personalizar.",
-        features: [
-            "Superficie lisa para mouse óptico",
-            "Base de goma antideslizante",
-            "Tamaño estándar",
-            "Resistente al agua",
-            "Fácil limpieza"
+            "Ideal para hogar u oficina",
+            "Diseño tipo cubo moderno"
         ]
     }
 ];
